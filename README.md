@@ -11,10 +11,7 @@ Resolução do 'Knapsack Problem' com algoritmo genético
    1.5 Função crossover
    1.6 Função mutate
    1.7 Função genetic_algorithm
-   
-2. Explica a escolha de representação do cromossoma, e a maneira como as duas operações de reprodução foram codificadas:
-    * mutação
-    * cross-over
+
       
 A representação do cromossomo em algoritmos genéticos é uma escolha crucial, pois afeta diretamente como a informação genética é manipulada durante as operações genéticas, como crossover (cruzamento) e mutação. No contexto do Problema da Mochila (Knapsack Problem), em que você está tentando encontrar uma combinação de itens que maximize o valor total sem exceder a capacidade da mochila, a representação do cromossomo pode ser binária.
 
@@ -38,8 +35,6 @@ Ponto de Crossover: 2 (por exemplo)
 Descendente: [1, 1, 0, 1, 0]
 
 Essas operações visam explorar diferentes combinações de itens para encontrar soluções melhores. A escolha da representação binária permite uma manipulação direta e intuitiva dos cromossomos em operações como crossover e mutação, facilitando a busca por soluções ótimas para o Problema da Mochila.
-
-4. O que acontece se o item adicionado for aquele que tiver um rácio de utilidade e peso maior em todas as iterações? A solução final com este método é melhor que a solução original?
 
    Se, em todas as iterações do algoritmo genético, o item adicionado for aquele que tem o maior rácio de utilidade para peso, é provável que a solução final seja melhor que a solução original em termos de valor total.
 
